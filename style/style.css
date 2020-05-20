@@ -5,16 +5,16 @@ body, p, h1, h2, a{
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color: #ffffff;
+  margin: 0;
 }
 
-
+/* Header page */
 .main-header{
   width: 100%;
   border: solid 1px black ;
   margin: 0 auto;
   position: relative;
   background-image: url("../img/4H9A7913.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -38,7 +38,9 @@ body, p, h1, h2, a{
 }
 
 .neo{
-  color: #A234D5;
+  background-image: linear-gradient(17.82deg, #a234d5 0%, #d74059 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main-header__nav{
@@ -52,15 +54,14 @@ body, p, h1, h2, a{
   font-size: 16px;
   line-height: 23px;
   padding: 15px;
-
 }
 
 .wellcome{
-  border-bottom: 3px solid #A234D5;
+  border-bottom: 3px solid #a234d5;
 }
 
 .touch{
-  border: solid 3px #A234D5;
+  border: solid 3px #a234d5;
 }
 
 .rectangle__container{
@@ -95,13 +96,13 @@ body, p, h1, h2, a{
   font-size: 20px;
   line-height: 25px;
   max-width: 528px;
-  margin: auto;
+  margin: 50px auto;
 }
 
 .banner_button{
   padding: 15px;
   margin-top: 30px;
-  background: linear-gradient(17.82deg, #A234D5 0%, #D74059 100%);
+  background: linear-gradient(17.82deg, #a234d5 0%, #d74059 100%);
   border-radius: 5px;
   color: #ffffff;
   letter-spacing: 0.00357143em;
@@ -111,21 +112,54 @@ body, p, h1, h2, a{
   width: max-content;
   margin: auto;
   margin-top: 200px;
+  margin-bottom: 50px;
 }
+
+
+/* Header footer */
 .header-footer{
   width: 100%;
   height: 510px;
-  border: solid 1px black ;
-  margin: 0 auto;
-  position: relative;
+  border: solid 1px black;
+  background: linear-gradient(35.31deg, #1a0e24 0%, #2e2236 100%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
 }
 
+.header-footer > aside{
+  text-align: center;
+}
+
+.header-footer__title{
+  font-size: 48px;
+  line-height: 23px;
+  letter-spacing: 0.00357143em;
+}
+
+.header-footer__content{
+  font-size: 22px;
+  line-height: 23px;
+  max-width: 440px;
+  margin: 50px auto;
+}
+
+.header-footer__button{
+  width: 140px;
+  height: 45px;
+  background: linear-gradient(17.82deg, #a234d5 0%, #d74059 100%);
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.00357143em;
+  color: #ffffff;
+}
+
+/* Our services */
 .our-services{
   width: 100%;
   height: 1024px;
-  border: solid 1px black ;
-  margin: 0 auto;
-  position: relative;
+  background: linear-gradient(35.42deg, #a234d5 0%, #d74059 100%);
 }
 
 .partners{
