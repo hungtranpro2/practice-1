@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+}
+body, p, h1, h2, a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+
+.main-header{
+  width: 100%;
+  border: solid 1px black ;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../img/4H9A7913.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header__menu{
+  display: flex;
+  max-width: 941px;
+  margin: 50px auto;
+  justify-content: space-between;
+  }
+
+.main-header__logo{
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-header__name{
+  padding: 5px;
+  font-size: 30px;
+  line-height: 23px;
+  text-decoration: none;
+}
+
+.neo{
+  color: #A234D5;
+}
+
+.main-header__nav{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.nav__link{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 23px;
+  padding: 15px;
+
+}
+
+.wellcome{
+  border-bottom: 3px solid #A234D5;
+}
+
+.touch{
+  border: solid 3px #A234D5;
+}
+
+.rectangle__container{
+  width: 200px;
+  margin: auto;
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.rectangle__item{
+  width: 40px;
+  height: 8px;
+  background-color: white;
+}
+
+.nonactive{
+  opacity: 0.4;
+}
+
+.banner{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.banner__title{
+  font-size: 56px;
+  line-height: 23px;
+  letter-spacing: 0.00357143em;;
+}
+
+.banner__content{
+  font-size: 20px;
+  line-height: 25px;
+  max-width: 528px;
+  margin: auto;
+}
+
+.banner_button{
+  padding: 15px;
+  margin-top: 30px;
+  background: linear-gradient(17.82deg, #A234D5 0%, #D74059 100%);
+  border-radius: 5px;
+  color: #ffffff;
+  letter-spacing: 0.00357143em;
+}
+
+.arow-down{
+  width: max-content;
+  margin: auto;
+  margin-top: 200px;
+}
+.header-footer{
+  width: 100%;
+  height: 510px;
+  border: solid 1px black ;
+  margin: 0 auto;
+  position: relative;
+}
+
+.our-services{
+  width: 100%;
+  height: 1024px;
+  border: solid 1px black ;
+  margin: 0 auto;
+  position: relative;
+}
+
+.partners{
+  width: 100%;
+  height: 250px;
+  border: solid 1px black ;
+  margin: 0 auto;
+  position: relative;
+}
+
+.team{
+  width: 100%;
+  height: 710px;
+  border: solid 1px black ;
+  margin: 0 auto;
+  position: relative;
+}
+
+.follow-us{
+  width: 100%;
+  height: 1024px;
+  border: solid 1px black ;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer{
+  width: 100%;
+  height: 250px;
+  border: solid 1px black ;
+  margin: 0 auto;
+  position: relative;
+}
