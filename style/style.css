@@ -112,6 +112,7 @@ body, p, h1, h2, a{
   border-radius: 5px;
   color: #ffffff;
   letter-spacing: 0.00357143em;
+  cursor: pointer;
 }
 
 .arow-down{
@@ -159,6 +160,7 @@ body, p, h1, h2, a{
   line-height: 23px;
   letter-spacing: 0.00357143em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* Our services */
@@ -302,6 +304,7 @@ body, p, h1, h2, a{
   letter-spacing: 0.00357143em;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn--active{
@@ -387,5 +390,21 @@ body, p, h1, h2, a{
 .footer{
   width: 100%;
   height: 250px;
-  border: solid 1px black ;
+  background-color: #000000;
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
+.footer__contact{
+  display: flex;
+  justify-content: space-around;
+  font-size: 28px;
+  line-height: 22px;
+  align-items: center;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
 }
