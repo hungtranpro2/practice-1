@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice 1</title>
-  <link rel="stylesheet" href="style/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
 <body>
     <!-- Header page start -->
     <header class="main-header">
       <div class="main-header__menu">
         <div class="main-header__logo">
           <a href="#" class="main-header__name neo">neo</a>
-          <a href="#" class="main-header__name digital">Digital</a>
+          <a href="#" class="main-header__name">Digital</a>
         </div>
         <div class="main-header__nav">
-          <a href="#" class="nav__link wellcome">Wellcome</a>
-          <a href="#" class="nav__link services">Services</a>
-          <a href="#" class="nav__link about">About</a>
-          <a href="#" class="nav__link touch">Get in touch</a>
+          <a href="#" class="nav__link">Welcome</a>
+          <a href="#" class="nav__link">Services</a>
+          <a href="#" class="nav__link">About</a>
+          <a href="#" class="nav__link nav__link--border">Get in touch</a>
         </div>
       </div>
-      <div class="rectangle__container">
-        <div class="rectangle__item "></div>
-        <div class="rectangle__item nonactive"></div>
-        <div class="rectangle__item nonactive"></div>
+      <div class="rectangle">
+        <div class="rectangle__item"></div>
+        <div class="rectangle__item rectangle__item--nonactive"></div>
+        <div class="rectangle__item rectangle__item--nonactive"></div>
       </div>
       <div class="banner">
         <h1 class="banner__title">Creative Digital Agency</h1>
-        <p class="banner__content">
+        <p class="banner__content caption">
           Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit
+           consectetur, adipisci velit
         </p>
-        <button class="banner_button btn">Find our more</button>
+        <button class="btn">Find our more</button>
       </div>
-      <div class="arow-down">
-        <img src="img/Arrow Down Icon.png" alt="" class="arow-down__icon">
+      <div class="arrow-down">
+        <img src="img/Arrow_Down_Icon.png" alt="Arrow Down"
+         class="arrow-down__icon">
       </div>
     </header>
     <!-- Header page end -->
 
     <!-- Header footer section start -->
     <section class="header-footer">
-      <aside class="header-footer__left">
-        <h1 class="header-footer__title left__title">Clean Design</h1>
-        <p class="header-footer__content left__content">It is a long established
+      <aside class="header-footer__firstly">
+        <h2 class="header-footer__title">Clean Design</h2>
+        <p class="header-footer__content content">It is a long established
            fact a reader will be distracted by the readable
             content of a page when looking at its layout.</p>
-        <button class="header-footer__button left__button btn">
+        <button class="btn">
           Visit website
         </button>
       </aside>
-      <aside class="header-footer__right">
-        <h1 class="header-footer__title right__title">Digital</h1>
-        <p class="header-footer__content right__content">It is a long
+      <aside class="header-footer__secondary">
+        <h2 class="header-footer__title">Digital</h2>
+        <p class="header-footer__content content">It is a long
            established fact a reader will be distracted by the readable
             content of a page when looking at its layout.</p>
-        <button class="header-footer__button right__button btn">
+        <button class="btn">
           Contact us
         </button>
       </aside>
@@ -66,10 +67,10 @@
 
     <!-- Our Services section start -->
     <section class="our-services">
-      <div class="container our-services__container">
+      <div class="our-services__container">
         <div class="our-services__header">
           <h1 class="our-services__title">Our Services</h1>
-          <p class="our-services__des">Neque porro quisquam est qui dolorem
+          <p class="our-services__des caption">Neque porro quisquam est qui dolorem
              ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
         </div>
         <div class="our-services__menu">
@@ -79,19 +80,21 @@
           <a href="#" class="our-services__link">Mobile Apps</a>
           <a href="#" class="our-services__link">Commerce</a>
         </div>
-        <div class="our-services__content">
-          <div class="our-service__content--left">
-            <img src="img/Fill 47.png" alt="fill" class="fill">
+        <div class="our-services__footer">
+          <div class="our-service__footer--firstly">
+            <div class="our-service__container-img">
+              <img src="img/Fill_47.png" alt="fill">
+            </div>
             <div class="box__shadow"></div>
           </div>
-          <div class="our-services__container--right">
-            <h1 class="our-services__title--right">We made UI / UX Design</h1>
-            <p class="our-services__content--right">Neque porro quisquam est
+          <div class="our-services__footer--secondary">
+            <p class="our-services__title--secondary">We made UI / UX Design</p>
+            <p class="our-services__content--secondary caption">Neque porro quisquam est
                qui dolorem ipsum quia dolor sit amet,
                 consectetur, adipisci velit. Neque porro quisquam est
                  qui dolorem ipsum quia dolor sit amet, consectetur,
                   adipisci velit...</p>
-            <p class="our-services__content--right">Neque porro quisquam est
+            <p class="our-services__content--secondary caption">Neque porro quisquam est
                qui dolorem ipsum quia dolor sit amet,
                 consectetur, adipisci velit.</p>
           </div>
@@ -106,7 +109,7 @@
         <img src="img/nikon.png" alt="Nikon">
       </div>
       <div class="partners__container">
-        <img src="img/envato.png" alt="Envanto">
+        <img src="img/envato.png" alt="Envato">
       </div>
       <div class="partners__container">
         <img src="img/citibank.png" alt="Citibank">
@@ -119,17 +122,18 @@
 
     <!-- Team section start -->
     <section class="team">
-      <aside class="team__container team--left">
-        <h1>John White</h1>
-        <h2>Creative Director</h2>
-        <p>It is a long established fact that a reader will be distracted by the
-           readable content of a page when looking at its layout.</p>
-        <div class="container__btn">
-          <button class="btn btn--active">LinkedIn</button>
-          <button class="btn btn--nonactive">Twitter</button>
+      <aside class="team__container team__container--firstly">
+        <h2 class="team__title">John White</h2>
+        <p class="team__title--min">Creative Director</p>
+        <p class="team__content content">It is a long established fact that a reader
+           will be distracted by the readable content of a page when looking
+            at its layout.</p>
+        <div class="team__btn">
+          <button class="btn">LinkedIn</button>
+          <button class="btn">Twitter</button>
         </div>
       </aside>
-      <aside class="team__container team--right">
+      <aside class="team__container team__container--secondary">
       </aside>
     </section>
     <!-- Team section end -->
@@ -137,29 +141,29 @@
     <!-- Follow us section start -->
     <section class="follow-us">
       <div class="follow-us__header">
-        <h1>Follow us on Instagram</h1>
-        <p>#digitalneosans</p>
+        <p class="follow-us__title">Follow us on Instagram</p>
+        <p class="follow-us__tag">#digitalneosans</p>
       </div>
       <div class="follow-us__item">
-        <div class="container__image">
+        <div class="follow-us__container-image">
           <img src="img/laptop.jpg" alt="Laptop" class="follow-us__image">
         </div>
-        <div class="container__image">
+        <div class="follow-us__container-image">
           <img src="img/street.jpg" alt="Street" class="follow-us__image">
         </div>
-        <div class="container__image">
-          <img src="img/coffe.jpg" alt="Coffe" class="follow-us__image">
+        <div class="follow-us__container-image">
+          <img src="img/coffee.jpg" alt="Coffee" class="follow-us__image">
         </div>
-        <div class="container__image">
+        <div class="follow-us__container-image">
           <img src="img/newspaper.jpg" alt="Newspaper" class="follow-us__image">
         </div>
       </div>
       <div class="follow-us__footer">
-        <h1>or find us here</h1>
-        <div>
-          <button class="btn btn--active">LinkedIn</button>
-          <button class="btn btn--nonactive">Facebook</button>
-          <button class="btn btn--nonactive">Twitter</button>
+        <p class="follow-us__footer--title">or find us here</p>
+        <div class="follow-us__btn">
+          <button class="btn">LinkedIn</button>
+          <button class="btn">Facebook</button>
+          <button class="btn">Twitter</button>
         </div>
       </div>
     </section>
@@ -167,10 +171,10 @@
 
     <!-- Footer start -->
     <footer class="footer">
-      <div class="footer__contact">
-        <p>Email: hello@digital.com</p>
-        <p>Tel: +460 472 888 012</p>
-        <p>Address: Gaffney St, Melbourne</p>
+      <div class="footer__container">
+        <p class="footer__contact">Email: hello@digital.com</p>
+        <p class="footer__contact">Tel: +460 472 888 012</p>
+        <p class="footer__contact">Address: Gaffney St, Melbourne</p>
       </div>
       <p class="copyright">&copy;Copyright 2016. Design by Xquter<p>
     </footer>
